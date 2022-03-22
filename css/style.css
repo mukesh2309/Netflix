@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+}
+/* ************************************ */
+
+/* header  */
+/* ************************************ */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url(../img/netflix-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 8px solid #222;
+  box-shadow: inset 0 10px 8px -10px #111, inset 0 -50px 60px 10px #111;
+}
+/* ****************************************** */
+/* nav section */
+/* ****************************************** */
+.nav {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem 3.2rem;
+  justify-content: space-between;
+}
+.netflix-logo {
+  display: inline-block;
+  width: 12rem;
+  margin-right: auto;
+}
+.en-hi {
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+}
+.en-hi option {
+  background-color: gray;
+  color: #fff;
+}
+.btn-signin {
+  padding: 0.8rem 1.6rem;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #e50914;
+  color: #fff;
+}
+.nav-btns {
+  column-gap: 2rem;
+}
+/* ****************************************** */
+/* hero section */
+/* ****************************************** */
+.section-hero {
+  padding: 9.6rem 0;
+}
+.hero {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 0 3.2rem;
+}
+.text-box {
+  flex-direction: column;
+  row-gap: 1.8rem;
+  text-align: center;
+  max-width: 80%;
+  padding: 2rem 0;
+  color: #fff;
+}
+.search-form {
+  justify-content: center;
+  gap: 0.2rem;
+  width: 100%;
+}
+.search-input {
+  padding: 1.2rem 1rem;
+  outline: none;
+  border: none;
+  width: 55%;
+}
+.search-btn {
+  width: 25%;
+  padding: 1.2rem 0.8rem;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+  background-color: #e50914;
+  cursor: pointer;
+}
+/* ***************************************** */
+/* stories section */
+/* ***************************************** */
+.stories {
+  padding: 3.2rem 0;
+  background-color: #111;
+  border-bottom: 8px solid #222;
+}
+.story-card {
+  justify-content: space-between;
+  color: #fff;
+}
+.story-img-box {
+  padding-right: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.video-play {
+  position: absolute;
+  left: 8%;
+  height: auto;
+  max-width: 80%;
+  z-index: -1;
+}
+.stranger-vid {
+  top: 15%;
+  transform: scale(1);
+}
+.story-img-box img {
+  max-width: 100%;
+}
+.story-text-box {
+  display: grid;
+  gap: 1.6rem;
+  padding-right: 4rem;
+  line-height: 1.4;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+.stranger-dwnld {
+  justify-content: space-between;
+  border: 2px solid #ffffff40;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  height: auto;
+  padding: 1rem;
+  background-color: #111;
+  max-width: 70%;
+}
+.stranger-dwnld img {
+  max-width: 20%;
+  border-radius: 12px 0 0 12px;
+}
+.stranger-dwnld p {
+  color: #0071eb;
+}
+/* ************** */
+/* scred video  */
+
+.sacred-vid {
+  transform: scale(0.7);
+}
+
+/* ************************ */
+/* faq section  */
+/* ************************ */
+.section-faq,
+.section-footer {
+  background-color: #111;
+  padding: 3.2rem 0;
+}
+.faq-qna {
+  color: #fff;
+  max-width: 65rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.8rem;
+  padding: 0 3.2rem;
+}
+.accord-quest {
+  display: grid;
+  gap: 0.8rem;
+}
+.accordion {
+  background-color: #303030;
+  cursor: pointer;
+  padding: 1.8rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  font-size: 2.2rem;
+  justify-content: space-between;
+}
+.accordion > svg {
+  width: 3rem;
+}
+.active {
+}
+
+.ans {
+  padding: 1.8rem;
+  display: none;
+  border-top: 2px solid black;
+  background-color: #303030;
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+/* ***************************** */
+/* footer text  */
+/* ***************************** */
+.footer-text,
+.footer-text > a {
+  text-decoration: none;
+  color: #757575;
+}
+.footer-nav {
+  margin: 0 auto;
+  max-width: 80rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 0 3.2rem;
+}
+.footer-text:nth-child(1) {
+  grid-column: 1/-1;
+}
+.footer-text:nth-child(16) {
+  grid-column: 3/-1;
+}
+.footer-text:nth-child(18) {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 55%;
+  }
+  .story-card {
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+  }
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 650px) {
+  html {
+    font-size: 45%;
+  }
+}

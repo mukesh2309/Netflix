@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  max-width: 110rem;
+  padding: 0 3.2rem;
+}
+.heading-primary-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  width: 80%;
+}
+.heading-primary {
+  font-size: 3.6rem;
+  line-height: 1.1;
+}
+.heading-secondary {
+  font-size: 1.6rem;
+}
+.heading-tertiary {
+  font-size: 1.2rem;
+}
+.margin-b-1 {
+  margin-bottom: 1.2rem;
+}
+.center {
+  display: grid;
+  place-items: center;
+}
+.text-c-mb {
+  text-align: center;
+  margin-bottom: -1.6rem;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.flex-equal {
+  flex: 1 1 0;
+}
