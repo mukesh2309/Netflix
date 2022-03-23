@@ -227,7 +227,7 @@ body {
   max-width: 80rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 3rem;
   padding: 0 3.2rem;
 }
 .footer-text:nth-child(1) {
@@ -262,7 +262,9 @@ body {
   html {
     font-size: 45%;
   }
-  .sear;
+  .footer-nav {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (max-width: 550px) {
   html {
@@ -275,5 +277,8 @@ body {
 @media (max-width: 450px) {
   html {
     font-size: 35%;
+  }
+  .footer-nav {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
