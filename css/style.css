@@ -257,6 +257,10 @@ body {
   html {
     font-size: 50%;
   }
+  .search-form {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
 }
 @media (max-width: 650px) {
   html {
